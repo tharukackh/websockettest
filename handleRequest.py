@@ -6,6 +6,7 @@ import httpx
 import traceback
 import json
 from typing import List, Optional, Dict, Any, Literal, TypedDict
+import time
 
 
 api_url = "https://api.groq.com/openai/v1/chat/completions"
@@ -66,8 +67,11 @@ async def get_completion_without_phenomes(
 
         async with httpx.AsyncClient(timeout=10.0) as client:
             try:
+                start = time.monotonic()
                 response = await client.post(api_url, headers=headers, json=payload)
-                print("done")
+
+                duration_ms = (time.monotonic() - start) * 1000
+                print(f"API call completed in {duration_ms:.2f} ms")
 
                 if response.status_code != 200:
                     print(f"Unexpected response code: {response.status_code}")
