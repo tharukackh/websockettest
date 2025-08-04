@@ -12,6 +12,7 @@ api_url = "https://api.groq.com/openai/v1/chat/completions"
 api_key = ""
 model = "llama-3.3-70b-versatile"
 streaming = False
+faq_intents = ""
 
 
 class ChatMessage(TypedDict):
@@ -97,13 +98,12 @@ async def get_completion_without_phenomes(
 async def build_faq_prompt(
     user_transcript: str,
     full_transcription: Optional[str],
-    faq_intents_with_responses: Dict[str, str],
     small_talk_history: Optional[List[dict]],
 ) -> str:
     # Build FAQ intent entries into prompt format
     intent_entries = "\n".join(
         f'- **{intent}** → "{response}"'
-        for intent, response in faq_intents_with_responses.items()
+        for intent, response in faq_intents.items()
     )
 
     # Construct user input
@@ -124,6 +124,33 @@ async def build_faq_prompt(
         )
 
 
+def get_faq_intents_from_file() -> Dict[str, str]:
+    try:
+        file_path = "scenarios.json"
+        with open(file_path, 'r', encoding='utf-8') as f:
+            scenarios = json.load(f)
+
+        faq_scenario = scenarios.get("FAQ")
+        if faq_scenario and "steps" in faq_scenario:
+            return {
+                step["intent"]: step["botResponse"]
+                for step in faq_scenario["steps"]
+                if "intent" in step and "botResponse" in step
+            }
+
+    except FileNotFoundError:
+        print(f"File not found: {file_path}")
+    except json.JSONDecodeError as e:
+        print(f"JSON decode error in file {file_path}: {e}")
+    except Exception as e:
+        print(f"Unexpected error: {e}")
+
+    return {}
+
 def setApiKey(apiKey:str):
     global api_key
     api_key = apiKey
+
+def setFaqIntents():
+    global faq_intents
+    faq_intents = get_faq_intents_from_file()

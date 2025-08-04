@@ -1,0 +1,3671 @@
+{
+  "scenarios": [
+    {
+      "scenarioId": "FAQ",
+      "name": "Frequently Asked Questions",
+      "steps": [
+        {
+          "step": 1,
+          "intent": "faq_device_help",
+          "botResponse": "Alright, let’s get your device back on track!",
+          "botGrutResponse": [
+            [
+              "h",
+              "ˈɪ",
+              "ɹ",
+              "z"
+            ],
+            [
+              "h",
+              "ˈaʊ"
+            ],
+            [
+              "t",
+              "ə"
+            ],
+            [
+              "t",
+              "ɹ",
+              "ˈʌ",
+              "b",
+              "ə",
+              "l",
+              "ʃ",
+              "ˌu",
+              "t"
+            ],
+            [
+              "j",
+              "ˈʊ",
+              "ɹ"
+            ],
+            [
+              "d",
+              "ɪ",
+              "v",
+              "ˈaɪ",
+              "s"
+            ],
+            [
+              "|"
+            ]
+          ],
+          "conditions": [],
+          "nextStep": null,
+          "nextScenario": null
+        },
+        {
+          "step": 2,
+          "intent": "ContactHeartBug",
+          "botResponse": "You can reach Heart-Bug by calling 1800 529 275, or dropping an email to patientcare@HeartBug dot com dot A U",
+          "botGrutResponse": [
+            [
+              "j",
+              "ˈu"
+            ],
+            [
+              "k",
+              "ə",
+              "n"
+            ],
+            [
+              "k",
+              "ˈɑ",
+              "n",
+              "t",
+              "ˌæ",
+              "k",
+              "t"
+            ],
+            [
+              "h",
+              "ˈɑ",
+              "ɹ",
+              "t"
+            ],
+            [
+              "b",
+              "ˈʌ",
+              "ɡ"
+            ],
+            [
+              "b",
+              "ˈaɪ"
+            ],
+            [
+              "k",
+              "ˈɔ",
+              "l",
+              "ɪ",
+              "ŋ"
+            ],
+            [
+              "eɪ",
+              "t",
+              "ˈi",
+              "n"
+            ],
+            [
+              "h",
+              "ˈʌ",
+              "n",
+              "d",
+              "ɹ",
+              "ɪ",
+              "d"
+            ],
+            [
+              "f",
+              "ˈaɪ",
+              "v"
+            ],
+            [
+              "h",
+              "ˈʌ",
+              "n",
+              "d",
+              "ɹ",
+              "ɪ",
+              "d"
+            ],
+            [
+              "ˈæ",
+              "n",
+              "d"
+            ],
+            [
+              "t",
+              "w",
+              "ˈɛ",
+              "n",
+              "t",
+              "i"
+            ],
+            [
+              "n",
+              "ˈaɪ",
+              "n"
+            ],
+            [
+              "t",
+              "ˈu"
+            ],
+            [
+              "h",
+              "ˈʌ",
+              "n",
+              "d",
+              "ɹ",
+              "ɪ",
+              "d"
+            ],
+            [
+              "ˈæ",
+              "n",
+              "d"
+            ],
+            [
+              "s",
+              "ˈɛ",
+              "v",
+              "ə",
+              "n",
+              "t",
+              "i"
+            ],
+            [
+              "f",
+              "ˈaɪ",
+              "v"
+            ],
+            [
+              "("
+            ],
+            [
+              "ˈɑ",
+              "p",
+              "ʃ",
+              "ə",
+              "n"
+            ],
+            [
+              "t",
+              "ˈu"
+            ],
+            [
+              ")"
+            ],
+            [
+              "ˈɔ",
+              "ɹ"
+            ],
+            [
+              "i",
+              "m",
+              "ˈeɪ",
+              "l",
+              "ɪ",
+              "ŋ"
+            ],
+            [
+              "p",
+              "ˈeɪ",
+              "ʃ",
+              "ə",
+              "n",
+              "t",
+              "k",
+              "ˌɔ",
+              "ɹ",
+              "h",
+              "ˈɛ",
+              "ɹ",
+              "t",
+              "b",
+              "ə",
+              "ɡ",
+              "k",
+              "ə",
+              "m",
+              "ə"
+            ],
+            [
+              "‖"
+            ]
+          ],
+          "conditions": [],
+          "nextStep": null,
+          "nextScenario": null
+        },
+        {
+          "step": 3,
+          "intent": "HeartBugUsage",
+          "botResponse": "Heart-Bug is your personal E-C-G Monitor. Wear it all the time, and hit or Say 'Make a Recording' if you feel off.",
+          "botGrutResponse": [
+            [
+              "h",
+              "ˈɑ",
+              "ɹ",
+              "t"
+            ],
+            [
+              "b",
+              "ˈʌ",
+              "ɡ"
+            ],
+            [
+              "ˈɪ",
+              "z"
+            ],
+            [
+              "ə"
+            ],
+            [
+              "p",
+              "ˈɚ",
+              "s",
+              "ə",
+              "n",
+              "ə",
+              "l"
+            ],
+            [
+              "ˈi"
+            ],
+            [
+              "s",
+              "ˈi"
+            ],
+            [
+              "d͡ʒ",
+              "ˈi"
+            ],
+            [
+              "m",
+              "ˈɑ",
+              "n",
+              "ə",
+              "t",
+              "ɚ"
+            ],
+            [
+              "‖"
+            ],
+            [
+              "w",
+              "ˈɛ",
+              "ɹ"
+            ],
+            [
+              "ˈɪ",
+              "t"
+            ],
+            [
+              "k",
+              "ə",
+              "n",
+              "t",
+              "ˈɪ",
+              "n",
+              "j",
+              "u",
+              "ə",
+              "s",
+              "l",
+              "i"
+            ],
+            [
+              "|"
+            ],
+            [
+              "ˈæ",
+              "n",
+              "d"
+            ],
+            [
+              "p",
+              "ɹ",
+              "ˈɛ",
+              "s"
+            ],
+            [
+              "'"
+            ],
+            [
+              "m",
+              "ˈeɪ",
+              "k"
+            ],
+            [
+              "ə"
+            ],
+            [
+              "ɹ",
+              "ɪ",
+              "k",
+              "ˈɔ",
+              "ɹ",
+              "d",
+              "ɪ",
+              "ŋ"
+            ],
+            [
+              "'"
+            ],
+            [
+              "ˈɪ",
+              "n"
+            ],
+            [
+              "ð",
+              "ə"
+            ],
+            [
+              "ˈæ",
+              "p"
+            ],
+            [
+              "w",
+              "ˈɛ",
+              "n"
+            ],
+            [
+              "j",
+              "ˈu"
+            ],
+            [
+              "f",
+              "ˈi",
+              "l"
+            ],
+            [
+              "ʌ",
+              "n",
+              "w",
+              "ˈɛ",
+              "l"
+            ],
+            [
+              "‖"
+            ]
+          ],
+          "conditions": [],
+          "nextStep": null,
+          "nextScenario": null
+        },
+        {
+          "step": 4,
+          "intent": "EmergencyInstructions",
+          "botResponse": "Heart-Bug isn't an emergency service. If you feel unwell, call 000 straight away!.",
+          "botGrutResponse": [
+            [
+              "h",
+              "ˈɑ",
+              "ɹ",
+              "t"
+            ],
+            [
+              "b",
+              "ˈʌ",
+              "ɡ"
+            ],
+            [
+              "ˈɪ",
+              "z"
+            ],
+            [
+              "n",
+              "ˈɑ",
+              "t"
+            ],
+            [
+              "ə",
+              "n"
+            ],
+            [
+              "ɪ",
+              "m",
+              "ˈɚ",
+              "d͡ʒ",
+              "ə",
+              "n",
+              "s",
+              "i"
+            ],
+            [
+              "s",
+              "ˈɚ",
+              "v",
+              "ɪ",
+              "s"
+            ],
+            [
+              "‖"
+            ],
+            [
+              "ˈɪ",
+              "f"
+            ],
+            [
+              "j",
+              "ˈu"
+            ],
+            [
+              "f",
+              "ˈi",
+              "l"
+            ],
+            [
+              "ʌ",
+              "n",
+              "w",
+              "ˈɛ",
+              "l"
+            ],
+            [
+              "|"
+            ],
+            [
+              "p",
+              "l",
+              "ˈi",
+              "z"
+            ],
+            [
+              "k",
+              "ˈɔ",
+              "l"
+            ],
+            [
+              "z",
+              "ˈɪ",
+              "ɹ",
+              "oʊ"
+            ],
+            [
+              "f",
+              "ɚ"
+            ],
+            [
+              "ˈɚ",
+              "d͡ʒ",
+              "ə",
+              "n",
+              "t"
+            ],
+            [
+              "ə",
+              "s",
+              "ˈɪ",
+              "s",
+              "t",
+              "ə",
+              "n",
+              "s"
+            ],
+            [
+              "‖"
+            ]
+          ],
+          "conditions": [],
+          "nextStep": null,
+          "nextScenario": null
+        },
+        {
+          "step": 5,
+          "intent": "FlyingWithHeartBug",
+          "botResponse": "Yep, you can wear Heart-Bug through airport security and on flights. Just remember to switch your phone to airplane mode!.",
+          "botGrutResponse": [
+            [
+              "h",
+              "ˈɑ",
+              "ɹ",
+              "t"
+            ],
+            [
+              "b",
+              "ˈʌ",
+              "ɡ"
+            ],
+            [
+              "k",
+              "ə",
+              "n"
+            ],
+            [
+              "b",
+              "ˈi"
+            ],
+            [
+              "w",
+              "ˈɔ",
+              "ɹ",
+              "n"
+            ],
+            [
+              "θ",
+              "ɹ",
+              "ˈu"
+            ],
+            [
+              "ˈɛ",
+              "ɹ",
+              "p",
+              "ˌɔ",
+              "ɹ",
+              "t"
+            ],
+            [
+              "s",
+              "ɪ",
+              "k",
+              "j",
+              "ˈʊ",
+              "ɹ",
+              "ɪ",
+              "t",
+              "i"
+            ],
+            [
+              "ˈæ",
+              "n",
+              "d"
+            ],
+            [
+              "d",
+              "ˈʊ",
+              "ɹ",
+              "ɪ",
+              "ŋ"
+            ],
+            [
+              "f",
+              "l",
+              "ˈaɪ",
+              "t",
+              "s"
+            ],
+            [
+              "‖"
+            ],
+            [
+              "ɹ",
+              "ɪ",
+              "m",
+              "ˈɛ",
+              "m",
+              "b",
+              "ɚ"
+            ],
+            [
+              "t",
+              "ə"
+            ],
+            [
+              "p",
+              "ˈʊ",
+              "t"
+            ],
+            [
+              "j",
+              "ˈʊ",
+              "ɹ"
+            ],
+            [
+              "f",
+              "ˈoʊ",
+              "n"
+            ],
+            [
+              "ˈɪ",
+              "n"
+            ],
+            [
+              "ˈɛ",
+              "ɹ",
+              "p",
+              "l",
+              "ˌeɪ",
+              "n"
+            ],
+            [
+              "m",
+              "ˈoʊ",
+              "d"
+            ],
+            [
+              "‖"
+            ]
+          ],
+          "conditions": [],
+          "nextStep": null,
+          "nextScenario": null
+        },
+        {
+          "step": 6,
+          "intent": "WaterproofHeartBug",
+          "botResponse": "Heart-Bug is water-resistant, so showers are fine — but skip baths, pools, and saunas!.",
+          "botGrutResponse": [
+            [
+              "h",
+              "ˈɑ",
+              "ɹ",
+              "t"
+            ],
+            [
+              "b",
+              "ˈʌ",
+              "ɡ"
+            ],
+            [
+              "ˈɪ",
+              "z"
+            ],
+            [
+              "w",
+              "ˈɔ",
+              "t",
+              "ɚ"
+            ],
+            [
+              "ɹ",
+              "ɪ",
+              "z",
+              "ˈɪ",
+              "s",
+              "t",
+              "ə",
+              "n",
+              "t"
+            ],
+            [
+              "ˈæ",
+              "n",
+              "d"
+            ],
+            [
+              "s",
+              "ˈeɪ",
+              "f"
+            ],
+            [
+              "f",
+              "ɚ"
+            ],
+            [
+              "ʃ",
+              "ˈaʊ",
+              "ɚ",
+              "z"
+            ],
+            [
+              "|"
+            ],
+            [
+              "b",
+              "ˈʌ",
+              "t"
+            ],
+            [
+              "ʃ",
+              "ˈʊ",
+              "d"
+            ],
+            [
+              "n",
+              "ˈɑ",
+              "t"
+            ],
+            [
+              "b",
+              "ˈi"
+            ],
+            [
+              "s",
+              "ʌ",
+              "b",
+              "m",
+              "ˈɚ",
+              "d͡ʒ",
+              "d"
+            ],
+            [
+              "ˈɪ",
+              "n"
+            ],
+            [
+              "w",
+              "ˈɔ",
+              "t",
+              "ɚ"
+            ],
+            [
+              "‖"
+            ],
+            [
+              "ə",
+              "v",
+              "ˈɔɪ",
+              "d"
+            ],
+            [
+              "b",
+              "ˈæ",
+              "θ",
+              "s"
+            ],
+            [
+              "|"
+            ],
+            [
+              "s",
+              "w",
+              "ˈɪ",
+              "m",
+              "ɪ",
+              "ŋ"
+            ],
+            [
+              "|"
+            ],
+            [
+              "ˈæ",
+              "n",
+              "d"
+            ],
+            [
+              "s",
+              "ˈɔ",
+              "n",
+              "ə",
+              "z"
+            ],
+            [
+              "‖"
+            ]
+          ],
+          "conditions": [],
+          "nextStep": null,
+          "nextScenario": null
+        },
+        {
+          "step": 7,
+          "intent": "HeartBugBattery",
+          "botResponse": "if your Heart-Bug's battery runs low, get in touch to swap it out or finish up your monitoring.",
+          "botGrutResponse": [
+            [
+              "ˈɪ",
+              "f"
+            ],
+            [
+              "j",
+              "ˈʊ",
+              "ɹ"
+            ],
+            [
+              "h",
+              "ˈɑ",
+              "ɹ",
+              "t"
+            ],
+            [
+              "b",
+              "ˈʌ",
+              "ɡ",
+              "z"
+            ],
+            [
+              "b",
+              "ˈæ",
+              "t",
+              "ɚ",
+              "i"
+            ],
+            [
+              "ˈɪ",
+              "z"
+            ],
+            [
+              "l",
+              "ˈoʊ"
+            ],
+            [
+              "|"
+            ],
+            [
+              "k",
+              "ˈɑ",
+              "n",
+              "t",
+              "ˌæ",
+              "k",
+              "t"
+            ],
+            [
+              "h",
+              "ˈɑ",
+              "ɹ",
+              "t"
+            ],
+            [
+              "b",
+              "ˈʌ",
+              "ɡ"
+            ],
+            [
+              "t",
+              "ə"
+            ],
+            [
+              "ɚ",
+              "ˈeɪ",
+              "n",
+              "d͡ʒ"
+            ],
+            [
+              "ə"
+            ],
+            [
+              "ɹ",
+              "ɪ",
+              "p",
+              "l",
+              "ˈeɪ",
+              "s",
+              "m",
+              "ə",
+              "n",
+              "t"
+            ],
+            [
+              "ˈɔ",
+              "ɹ"
+            ],
+            [
+              "t",
+              "ə"
+            ],
+            [
+              "ˈɛ",
+              "n",
+              "d"
+            ],
+            [
+              "ð",
+              "ə"
+            ],
+            [
+              "m",
+              "ˈɑ",
+              "n",
+              "ə",
+              "t",
+              "ɚ",
+              "ɪ",
+              "ŋ"
+            ],
+            [
+              "p",
+              "ˈɪ",
+              "ɹ",
+              "i",
+              "ə",
+              "d"
+            ],
+            [
+              "‖"
+            ]
+          ],
+          "conditions": [],
+          "nextStep": null,
+          "nextScenario": null
+        },
+        {
+          "step": 8,
+          "intent": "BluetoothConnection",
+          "botResponse": "Sometimes Bluetooth drops out. Keep Heart-Bug and your phone close — about 5 meters — for the best connection.",
+          "botGrutResponse": [
+            [
+              "b",
+              "l",
+              "ˈu",
+              "t",
+              "ˌu",
+              "θ"
+            ],
+            [
+              "k",
+              "ə",
+              "n",
+              "ˈɛ",
+              "k",
+              "ʃ",
+              "ə",
+              "n"
+            ],
+            [
+              "m",
+              "ˈeɪ"
+            ],
+            [
+              "d",
+              "ɹ",
+              "ˈɑ",
+              "p"
+            ],
+            [
+              "ɔ",
+              "k",
+              "ˈeɪ",
+              "ʒ",
+              "ə",
+              "n",
+              "ə",
+              "l",
+              "i"
+            ],
+            [
+              "‖"
+            ],
+            [
+              "k",
+              "ˈi",
+              "p"
+            ],
+            [
+              "h",
+              "ˈɑ",
+              "ɹ",
+              "t"
+            ],
+            [
+              "b",
+              "ˈʌ",
+              "ɡ"
+            ],
+            [
+              "ˈæ",
+              "n",
+              "d"
+            ],
+            [
+              "j",
+              "ˈʊ",
+              "ɹ"
+            ],
+            [
+              "f",
+              "ˈoʊ",
+              "n"
+            ],
+            [
+              "w",
+              "ɪ",
+              "ð",
+              "ˈɪ",
+              "n"
+            ],
+            [
+              "ə"
+            ],
+            [
+              "m",
+              "ˈɑ",
+              "ɹ",
+              "t͡ʃ"
+            ],
+            [
+              "θ",
+              "ˈɚ",
+              "d"
+            ],
+            [
+              "|"
+            ],
+            [
+              "t",
+              "w",
+              "ˈɛ",
+              "n",
+              "t",
+              "i"
+            ],
+            [
+              "t",
+              "w",
+              "ˈɛ",
+              "n",
+              "t",
+              "i"
+            ],
+            [
+              "f",
+              "ˈaɪ",
+              "v"
+            ],
+            [
+              "ɹ",
+              "ˈeɪ",
+              "n",
+              "d͡ʒ"
+            ],
+            [
+              "f",
+              "ɚ"
+            ],
+            [
+              "s",
+              "t",
+              "ˈeɪ",
+              "b",
+              "ə",
+              "l"
+            ],
+            [
+              "k",
+              "ə",
+              "n",
+              "ˈɛ",
+              "k",
+              "ʃ",
+              "ə",
+              "n"
+            ],
+            [
+              "‖"
+            ]
+          ],
+          "conditions": [],
+          "nextStep": null,
+          "nextScenario": null
+        },
+        {
+          "step": 9,
+          "intent": "FlashingHeartBug",
+          "botResponse": "Heart-Bug flashes different colors to show its status: blue means disconnected, green means connected, red means updating.",
+          "botGrutResponse": [
+            [
+              "h",
+              "ˈɑ",
+              "ɹ",
+              "t"
+            ],
+            [
+              "b",
+              "ˈʌ",
+              "ɡ"
+            ],
+            [
+              "f",
+              "l",
+              "ˈæ",
+              "ʃ",
+              "ɪ",
+              "z"
+            ],
+            [
+              "t",
+              "ə"
+            ],
+            [
+              "ˈɪ",
+              "n",
+              "d",
+              "ɪ",
+              "k",
+              "ˌeɪ",
+              "t"
+            ],
+            [
+              "ˈɪ",
+              "t",
+              "s"
+            ],
+            [
+              "s",
+              "t",
+              "ˈæ",
+              "t",
+              "ə",
+              "s"
+            ],
+            [
+              "‖"
+            ],
+            [
+              "b",
+              "l",
+              "ˈu"
+            ],
+            [
+              "m",
+              "ˈi",
+              "n",
+              "z"
+            ],
+            [
+              "d",
+              "ˌɪ",
+              "s",
+              "k",
+              "ə",
+              "n",
+              "ˈɛ",
+              "k",
+              "t",
+              "ɪ",
+              "d"
+            ],
+            [
+              "|"
+            ],
+            [
+              "ɡ",
+              "ɹ",
+              "ˈi",
+              "n"
+            ],
+            [
+              "ˈɪ",
+              "n",
+              "d",
+              "ɪ",
+              "k",
+              "ˌeɪ",
+              "t",
+              "s"
+            ],
+            [
+              "k",
+              "ə",
+              "n",
+              "ˈɛ",
+              "k",
+              "t",
+              "ɪ",
+              "d"
+            ],
+            [
+              "|"
+            ],
+            [
+              "ˈæ",
+              "n",
+              "d"
+            ],
+            [
+              "ɹ",
+              "ˈɛ",
+              "d"
+            ],
+            [
+              "ʃ",
+              "ˈoʊ",
+              "z"
+            ],
+            [
+              "ˈɪ",
+              "t",
+              "s"
+            ],
+            [
+              "ʌ",
+              "p",
+              "d",
+              "ˈeɪ",
+              "t",
+              "ɪ",
+              "ŋ"
+            ],
+            [
+              "‖"
+            ]
+          ],
+          "conditions": [],
+          "nextStep": null,
+          "nextScenario": null
+        },
+        {
+          "step": 10,
+          "intent": "SkinIrritation",
+          "botResponse": "Getting a bit of skin irritation? Try DermAid 1% spray and move the sticker to a fresh spot.",
+          "botGrutResponse": [
+            [
+              "f",
+              "ɚ"
+            ],
+            [
+              "s",
+              "k",
+              "ˈɪ",
+              "n"
+            ],
+            [
+              "ˌɪ",
+              "ɹ",
+              "ɪ",
+              "t",
+              "ˈeɪ",
+              "ʃ",
+              "ə",
+              "n"
+            ],
+            [
+              "f",
+              "ɹ",
+              "ˈʌ",
+              "m"
+            ],
+            [
+              "h",
+              "ˈɑ",
+              "ɹ",
+              "t"
+            ],
+            [
+              "b",
+              "ˈʌ",
+              "ɡ"
+            ],
+            [
+              "s",
+              "t",
+              "ˈɪ",
+              "k",
+              "ɚ",
+              "z"
+            ],
+            [
+              "|"
+            ],
+            [
+              "ə",
+              "p",
+              "l",
+              "ˈaɪ"
+            ],
+            [
+              "d",
+              "ˈɚ",
+              "m",
+              "ˈeɪ",
+              "d"
+            ],
+            [
+              "w",
+              "ˈʌ",
+              "n"
+            ],
+            [
+              "p",
+              "ɚ",
+              "s",
+              "ˈɛ",
+              "n",
+              "t"
+            ],
+            [
+              "s",
+              "p",
+              "ɹ",
+              "ˈeɪ"
+            ],
+            [
+              "ˈæ",
+              "n",
+              "d"
+            ],
+            [
+              "m",
+              "ˈu",
+              "v"
+            ],
+            [
+              "ð",
+              "ə"
+            ],
+            [
+              "n",
+              "j",
+              "ˈu"
+            ],
+            [
+              "s",
+              "t",
+              "ˈɪ",
+              "k",
+              "ɚ"
+            ],
+            [
+              "s",
+              "l",
+              "ˈaɪ",
+              "t",
+              "l",
+              "i"
+            ],
+            [
+              "ə",
+              "w",
+              "ˈeɪ"
+            ],
+            [
+              "f",
+              "ɹ",
+              "ˈʌ",
+              "m"
+            ],
+            [
+              "ð",
+              "ə"
+            ],
+            [
+              "s",
+              "ˈɔ",
+              "ɹ"
+            ],
+            [
+              "s",
+              "p",
+              "ˈɑ",
+              "t"
+            ],
+            [
+              "‖"
+            ]
+          ],
+          "conditions": [],
+          "nextStep": null,
+          "nextScenario": null
+        },
+        {
+          "step": 11,
+          "intent": "PrivacyPolicy",
+          "botResponse": "Heart-Bug keeps your data safe and only shares your E-C-G report with your referring doctor.",
+          "botGrutResponse": [
+            [
+              "h",
+              "ˈɑ",
+              "ɹ",
+              "t"
+            ],
+            [
+              "b",
+              "ˈʌ",
+              "ɡ"
+            ],
+            [
+              "s",
+              "ɪ",
+              "k",
+              "j",
+              "ˈʊ",
+              "ɹ",
+              "l",
+              "i"
+            ],
+            [
+              "s",
+              "t",
+              "ˈɔ",
+              "ɹ",
+              "z"
+            ],
+            [
+              "j",
+              "ˈʊ",
+              "ɹ"
+            ],
+            [
+              "p",
+              "ˈɚ",
+              "s",
+              "ə",
+              "n",
+              "ə",
+              "l"
+            ],
+            [
+              "d",
+              "ˈæ",
+              "t",
+              "ə"
+            ],
+            [
+              "ˈæ",
+              "n",
+              "d"
+            ],
+            [
+              "ʃ",
+              "ˈɛ",
+              "ɹ",
+              "z"
+            ],
+            [
+              "j",
+              "ˈʊ",
+              "ɹ"
+            ],
+            [
+              "ˈi"
+            ],
+            [
+              "s",
+              "ˈi"
+            ],
+            [
+              "d͡ʒ",
+              "ˈi"
+            ],
+            [
+              "ɹ",
+              "ɪ",
+              "p",
+              "ˈɔ",
+              "ɹ",
+              "t"
+            ],
+            [
+              "ˈoʊ",
+              "n",
+              "l",
+              "i"
+            ],
+            [
+              "w",
+              "ˈɪ",
+              "θ"
+            ],
+            [
+              "j",
+              "ˈʊ",
+              "ɹ"
+            ],
+            [
+              "ɹ",
+              "ɪ",
+              "f",
+              "ˈɚ",
+              "ɪ",
+              "ŋ"
+            ],
+            [
+              "d",
+              "ˈɑ",
+              "k",
+              "t",
+              "ɚ"
+            ],
+            [
+              "‖"
+            ]
+          ],
+          "conditions": [],
+          "nextStep": null,
+          "nextScenario": null
+        },
+        {
+          "step": 12,
+          "intent": "MonitoringPeriod",
+          "botResponse": "You should wear Heart-Bug throughout your monitoring period, usually for about 1 to 4 weeks — your doctor will guide you.",
+          "botGrutResponse": [
+            [
+              "j",
+              "ˈu"
+            ],
+            [
+              "ʃ",
+              "ˈʊ",
+              "d"
+            ],
+            [
+              "w",
+              "ˈɛ",
+              "ɹ"
+            ],
+            [
+              "h",
+              "ˈɑ",
+              "ɹ",
+              "t"
+            ],
+            [
+              "b",
+              "ˈʌ",
+              "ɡ"
+            ],
+            [
+              "k",
+              "ə",
+              "n",
+              "t",
+              "ˈɪ",
+              "n",
+              "j",
+              "u",
+              "ə",
+              "s",
+              "l",
+              "i"
+            ],
+            [
+              "f",
+              "ɚ"
+            ],
+            [
+              "ð",
+              "ə"
+            ],
+            [
+              "m",
+              "ˈɑ",
+              "n",
+              "ə",
+              "t",
+              "ɚ",
+              "ɪ",
+              "ŋ"
+            ],
+            [
+              "p",
+              "ˈɪ",
+              "ɹ",
+              "i",
+              "ə",
+              "d"
+            ],
+            [
+              "ɹ",
+              "ˌɛ",
+              "k",
+              "ə",
+              "m",
+              "ˈɛ",
+              "n",
+              "d",
+              "ɪ",
+              "d"
+            ],
+            [
+              "b",
+              "ˈaɪ"
+            ],
+            [
+              "j",
+              "ˈʊ",
+              "ɹ"
+            ],
+            [
+              "d",
+              "ˈɑ",
+              "k",
+              "t",
+              "ɚ"
+            ],
+            [
+              "|"
+            ],
+            [
+              "j",
+              "ˈu",
+              "ʒ",
+              "ə",
+              "l",
+              "i"
+            ],
+            [
+              "w",
+              "ˈʌ",
+              "n"
+            ],
+            [
+              "t",
+              "ə"
+            ],
+            [
+              "f",
+              "ˈɔ",
+              "ɹ"
+            ],
+            [
+              "w",
+              "ˈi",
+              "k",
+              "s"
+            ],
+            [
+              "‖"
+            ]
+          ],
+          "conditions": [],
+          "nextStep": null,
+          "nextScenario": null
+        },
+        {
+          "step": 13,
+          "intent": "Reminder",
+          "botResponse": "Seems like you are away from Heart-Bug and I am detecting irregularities. Can you please come closer so I can do a recording? Thank you.",
+          "botGrutResponse": [],
+          "conditions": [],
+          "nextStep": null,
+          "nextScenario": null
+        }
+      ]
+    },
+    {
+      "scenarioId": "OrderStickersFlow",
+      "name": "Order More Stickers",
+      "steps": [
+        {
+          "step": 1,
+          "intent": "StickerOrder",
+          "botResponse": "Let me check your details.",
+          "botGrutResponse": [
+            [
+              "l",
+              "ˈɛ",
+              "t"
+            ],
+            [
+              "m",
+              "ˈi"
+            ],
+            [
+              "t͡ʃ",
+              "ˈɛ",
+              "k"
+            ],
+            [
+              "j",
+              "ˈʊ",
+              "ɹ"
+            ],
+            [
+              "d",
+              "ˈi",
+              "t",
+              "eɪ",
+              "l",
+              "z"
+            ],
+            [
+              "‖"
+            ]
+          ],
+          "conditions": [
+            {
+              "id": 1,
+              "type": "ObjectConditionDTO",
+              "property": "firstname",
+              "objectName": "patient",
+              "operator": "isNotNullOrEmpty",
+              "onSuccess": {
+                "jumpToStep": 2
+              },
+              "onFailure": {
+                "jumpToStep": null,
+                "executeHooks": [
+                  {
+                    "functionName": "generateCustomMessage",
+                    "parameters": {
+                      "template": "Please login to proceed.",
+                      "templateGrutResponse": [
+                        [
+                          "p",
+                          "l",
+                          "ˈi",
+                          "z"
+                        ],
+                        [
+                          "l",
+                          "ˈɔ",
+                          "ɡ",
+                          "ˌɪ",
+                          "n"
+                        ],
+                        [
+                          "t",
+                          "ə"
+                        ],
+                        [
+                          "p",
+                          "ɹ",
+                          "oʊ",
+                          "s",
+                          "ˈi",
+                          "d",
+                          "z"
+                        ],
+                        [
+                          "‖"
+                        ]
+                      ],
+                      "contextKey": ""
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "nextStep": null
+        },
+        {
+          "step": 2,
+          "intent": "CheckInternetConnection",
+          "botResponse": "Checking your internet connection.",
+          "botGrutResponse": [
+            [
+              "t͡ʃ",
+              "ˈɛ",
+              "k",
+              "ɪ",
+              "ŋ"
+            ],
+            [
+              "j",
+              "ˈʊ",
+              "ɹ"
+            ],
+            [
+              "ˈɪ",
+              "n",
+              "t",
+              "ɚ",
+              "n",
+              "ˌɛ",
+              "t"
+            ],
+            [
+              "k",
+              "ə",
+              "n",
+              "ˈɛ",
+              "k",
+              "ʃ",
+              "ə",
+              "n"
+            ],
+            [
+              "‖"
+            ]
+          ],
+          "conditions": [
+            {
+              "id": 2,
+              "type": "ContextConditionDTO",
+              "key": "isInternetConnected",
+              "operator": "equals",
+              "threshold": true,
+              "preConditionHooks": [
+                {
+                  "functionName": "checkInternetConnection",
+                  "parameters": {}
+                }
+              ],
+              "onSuccess": {
+                "jumpToStep": 3
+              },
+              "onFailure": {
+                "jumpToStep": null,
+                "executeHooks": [
+                  {
+                    "functionName": "generateCustomMessage",
+                    "parameters": {
+                      "template": "It seems like you're not connected to the internet. Please check your connection and try again.",
+                      "templateGrutResponse": [
+                        [
+                          "ˈɪ",
+                          "t"
+                        ],
+                        [
+                          "s",
+                          "ˈi",
+                          "m",
+                          "z"
+                        ],
+                        [
+                          "l",
+                          "ˈaɪ",
+                          "k"
+                        ],
+                        [
+                          "j",
+                          "ˈʊ",
+                          "ɹ"
+                        ],
+                        [
+                          "n",
+                          "ˈɑ",
+                          "t"
+                        ],
+                        [
+                          "k",
+                          "ə",
+                          "n",
+                          "ˈɛ",
+                          "k",
+                          "t",
+                          "ɪ",
+                          "d"
+                        ],
+                        [
+                          "t",
+                          "ə"
+                        ],
+                        [
+                          "ð",
+                          "ə"
+                        ],
+                        [
+                          "ˈɪ",
+                          "n",
+                          "t",
+                          "ɚ",
+                          "n",
+                          "ˌɛ",
+                          "t"
+                        ],
+                        [
+                          "‖"
+                        ],
+                        [
+                          "p",
+                          "l",
+                          "ˈi",
+                          "z"
+                        ],
+                        [
+                          "t͡ʃ",
+                          "ˈɛ",
+                          "k"
+                        ],
+                        [
+                          "j",
+                          "ˈʊ",
+                          "ɹ"
+                        ],
+                        [
+                          "k",
+                          "ə",
+                          "n",
+                          "ˈɛ",
+                          "k",
+                          "ʃ",
+                          "ə",
+                          "n"
+                        ],
+                        [
+                          "ˈæ",
+                          "n",
+                          "d"
+                        ],
+                        [
+                          "t",
+                          "ɹ",
+                          "ˈaɪ"
+                        ],
+                        [
+                          "ə",
+                          "ɡ",
+                          "ˈɛ",
+                          "n"
+                        ],
+                        [
+                          "‖"
+                        ]
+                      ],
+                      "contextKey": ""
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "nextStep": null
+        },
+        {
+          "step": 3,
+          "intent": "FetchEnrollmentStatus",
+          "botResponse": "Fetching enrollment status.",
+          "botGrutResponse": [
+            [
+              "f",
+              "ˈɛ",
+              "t͡ʃ",
+              "ɪ",
+              "ŋ"
+            ],
+            [
+              "ɪ",
+              "n",
+              "ɹ",
+              "ˈoʊ",
+              "l",
+              "m",
+              "ə",
+              "n",
+              "t"
+            ],
+            [
+              "s",
+              "t",
+              "ˈæ",
+              "t",
+              "ə",
+              "s"
+            ],
+            [
+              "‖"
+            ]
+          ],
+          "conditions": [
+            {
+              "id": 3,
+              "type": "ContextConditionDTO",
+              "key": "enrollmentStatus",
+              "operator": "notEquals",
+              "threshold": -3,
+              "preConditionHooks": [
+                {
+                  "functionName": "fetchEnrollmentStatus",
+                  "parameters": {
+                    "inputField": "enrollmentStatus"
+                  }
+                }
+              ],
+              "onSuccess": {
+                "jumpToStep": 4
+              },
+              "onFailure": {
+                "jumpToStep": null,
+                "executeHooks": [
+                  {
+                    "functionName": "generateCustomMessage",
+                    "parameters": {
+                      "template": "Your enrollment status does not allow sticker ordering. Please contact patient care.",
+                      "templateGrutResponse": [
+                        [
+                          "j",
+                          "ˈʊ",
+                          "ɹ"
+                        ],
+                        [
+                          "ɪ",
+                          "n",
+                          "ɹ",
+                          "ˈoʊ",
+                          "l",
+                          "m",
+                          "ə",
+                          "n",
+                          "t"
+                        ],
+                        [
+                          "s",
+                          "t",
+                          "ˈæ",
+                          "t",
+                          "ə",
+                          "s"
+                        ],
+                        [
+                          "d",
+                          "ˈʌ",
+                          "z"
+                        ],
+                        [
+                          "n",
+                          "ˈɑ",
+                          "t"
+                        ],
+                        [
+                          "ə",
+                          "l",
+                          "ˈaʊ"
+                        ],
+                        [
+                          "s",
+                          "t",
+                          "ˈɪ",
+                          "k",
+                          "ɚ"
+                        ],
+                        [
+                          "ˈɔ",
+                          "ɹ",
+                          "d",
+                          "ɚ",
+                          "ɪ",
+                          "ŋ"
+                        ],
+                        [
+                          "‖"
+                        ],
+                        [
+                          "p",
+                          "l",
+                          "ˈi",
+                          "z"
+                        ],
+                        [
+                          "k",
+                          "ˈɑ",
+                          "n",
+                          "t",
+                          "ˌæ",
+                          "k",
+                          "t"
+                        ],
+                        [
+                          "p",
+                          "ˈeɪ",
+                          "ʃ",
+                          "ə",
+                          "n",
+                          "t"
+                        ],
+                        [
+                          "k",
+                          "ˈɛ",
+                          "ɹ"
+                        ],
+                        [
+                          "‖"
+                        ]
+                      ],
+                      "contextKey": ""
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "nextStep": 4
+        },
+        {
+          "step": 4,
+          "intent": "CaptureExistingQuantity",
+          "botResponse": "",
+          "botGrutResponse": [],
+          "conditions": [
+            {
+              "id": 4,
+              "type": "ContextConditionDTO",
+              "key": "existingQuantity",
+              "operator": "isNotNullOrEmpty",
+              "preConditionHooks": [
+                {
+                  "functionName": "captureManualInput",
+                  "parameters": {
+                    "inputField": "existingQuantity",
+                    "type": "integer",
+                    "prompt": "Please provide the number of sticker packs you have left.",
+                    "promptGrutResponse": [
+                      [
+                        "p",
+                        "l",
+                        "ˈi",
+                        "z"
+                      ],
+                      [
+                        "p",
+                        "ɹ",
+                        "ə",
+                        "v",
+                        "ˈaɪ",
+                        "d"
+                      ],
+                      [
+                        "ð",
+                        "ə"
+                      ],
+                      [
+                        "n",
+                        "ˈʌ",
+                        "m",
+                        "b",
+                        "ɚ"
+                      ],
+                      [
+                        "ə",
+                        "v"
+                      ],
+                      [
+                        "s",
+                        "t",
+                        "ˈɪ",
+                        "k",
+                        "ɚ"
+                      ],
+                      [
+                        "p",
+                        "ˈæ",
+                        "k",
+                        "s"
+                      ],
+                      [
+                        "j",
+                        "ˈu"
+                      ],
+                      [
+                        "h",
+                        "ˈæ",
+                        "v"
+                      ],
+                      [
+                        "l",
+                        "ˈɛ",
+                        "f",
+                        "t"
+                      ],
+                      [
+                        "‖"
+                      ]
+                    ],
+                    "llmPrompt": "You are an intelligent assistant designed to analyze user input and extract a valid quantity value. Your task is to:\n1. Extract the numeric quantity from the input text if it is a non-negative integer (>= 0).\n2. Validate that the extracted value is valid as a quantity. If valid, return it as an integer.\n3. If no valid quantity is found, respond with \"Invalid quantity\" without extracting any value.\n\nRules:\n- Ignore text unrelated to the quantity.\n- Ensure the extracted value is a whole number greater than or equal to 0.\n- Do not extract floating-point values or negative numbers as valid quantities.\n- Ensure the response contains only this JSON object, nothing more.\n**Input Example 1:**\n\"I have 3 sticker packs left.\"\n**Output Example 1:**\n{\n  \"isValid\": true,\n  \"extractedValue\": 3\n}",
+                    "retryPrompt": "I didn't understand. Please provide a valid number.",
+                    "retryGrutResponse": [
+                      [
+                        "aɪ"
+                      ],
+                      [
+                        "d",
+                        "ɪ",
+                        "d",
+                        "ə",
+                        "n",
+                        "t"
+                      ],
+                      [
+                        "ʌ",
+                        "n",
+                        "d",
+                        "ɚ",
+                        "s",
+                        "t",
+                        "æ",
+                        "n",
+                        "d"
+                      ],
+                      [
+                        "p",
+                        "l",
+                        "i",
+                        "z"
+                      ],
+                      [
+                        "p",
+                        "ɹ",
+                        "ə",
+                        "v",
+                        "aɪ",
+                        "d"
+                      ],
+                      [
+                        "ə"
+                      ],
+                      [
+                        "v",
+                        "æ",
+                        "l",
+                        "ɪ",
+                        "d"
+                      ],
+                      [
+                        "n",
+                        "ʌ",
+                        "m",
+                        "b",
+                        "ɚ"
+                      ]
+                    ],
+                    "maxRetries": 3
+                  }
+                }
+              ],
+              "onSuccess": {
+                "jumpToStep": 5
+              },
+              "onFailure": {
+                "jumpToStep": null,
+                "executeHooks": [
+                  {
+                    "functionName": "generateCustomMessage",
+                    "parameters": {
+                      "template": "I couldn't capture the quantity. Please try again later.",
+                      "templateGrutResponse": [
+                        [
+                          "ˈaɪ"
+                        ],
+                        [
+                          "k",
+                          "ˈʊ",
+                          "d",
+                          "ə",
+                          "n",
+                          "t"
+                        ],
+                        [
+                          "k",
+                          "ˈæ",
+                          "p",
+                          "t͡ʃ",
+                          "ɚ"
+                        ],
+                        [
+                          "ð",
+                          "ə"
+                        ],
+                        [
+                          "k",
+                          "w",
+                          "ˈɔ",
+                          "n",
+                          "t",
+                          "ɪ",
+                          "t",
+                          "i"
+                        ],
+                        [
+                          "‖"
+                        ],
+                        [
+                          "p",
+                          "l",
+                          "ˈi",
+                          "z"
+                        ],
+                        [
+                          "t",
+                          "ɹ",
+                          "ˈaɪ"
+                        ],
+                        [
+                          "ə",
+                          "ɡ",
+                          "ˈɛ",
+                          "n"
+                        ],
+                        [
+                          "l",
+                          "ˈeɪ",
+                          "t",
+                          "ɚ"
+                        ],
+                        [
+                          "‖"
+                        ]
+                      ],
+                      "contextKey": ""
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "nextStep": null
+        },
+        {
+          "step": 5,
+          "intent": "ValidateCategoryAndEnrollment",
+          "botResponse": "Validating your quantity and enrollment status.",
+          "botGrutResponse": [
+            [
+              "v",
+              "ˈæ",
+              "l",
+              "ɪ",
+              "d",
+              "ˌeɪ",
+              "t",
+              "ɪ",
+              "ŋ"
+            ],
+            [
+              "j",
+              "ˈʊ",
+              "ɹ"
+            ],
+            [
+              "k",
+              "w",
+              "ˈɔ",
+              "n",
+              "t",
+              "ɪ",
+              "t",
+              "i"
+            ],
+            [
+              "ˈæ",
+              "n",
+              "d"
+            ],
+            [
+              "ɪ",
+              "n",
+              "ɹ",
+              "ˈoʊ",
+              "l",
+              "m",
+              "ə",
+              "n",
+              "t"
+            ],
+            [
+              "s",
+              "t",
+              "ˈæ",
+              "t",
+              "ə",
+              "s"
+            ],
+            [
+              "‖"
+            ]
+          ],
+          "conditions": [
+            {
+              "id": 5,
+              "type": "ComplexConditionDTO",
+              "expressions": [
+                {
+                  "key": "enrollmentStatus",
+                  "operator": "notIn",
+                  "threshold": [
+                    -1,
+                    1
+                  ],
+                  "or": [
+                    {
+                      "key": "existingQuantity",
+                      "operator": "lessThanOrEqualTo",
+                      "threshold": 4
+                    }
+                  ]
+                },
+                {
+                  "key": "enrollmentStatus",
+                  "operator": "equals",
+                  "threshold": 1,
+                  "or": [
+                    {
+                      "key": "existingQuantity",
+                      "operator": "lessThanOrEqualTo",
+                      "threshold": 3
+                    }
+                  ]
+                },
+                {
+                  "key": "enrollmentStatus",
+                  "operator": "equals",
+                  "threshold": -1,
+                  "or": [
+                    {
+                      "key": "existingQuantity",
+                      "operator": "lessThanOrEqualTo",
+                      "threshold": 2
+                    }
+                  ]
+                }
+              ],
+              "onSuccess": {
+                "jumpToStep": 6
+              },
+              "onFailure": {
+                "jumpToStep": 7
+              }
+            }
+          ],
+          "nextStep": null
+        },
+        {
+          "step": 6,
+          "intent": "CheckOrderDuplication",
+          "botResponse": "Checking for duplicate orders.",
+          "botGrutResponse": [
+            [
+              "t͡ʃ",
+              "ˈɛ",
+              "k",
+              "ɪ",
+              "ŋ"
+            ],
+            [
+              "f",
+              "ɚ"
+            ],
+            [
+              "d",
+              "ˈu",
+              "p",
+              "l",
+              "ɪ",
+              "k",
+              "ɪ",
+              "t"
+            ],
+            [
+              "ˈɔ",
+              "ɹ",
+              "d",
+              "ɚ",
+              "z"
+            ],
+            [
+              "‖"
+            ]
+          ],
+          "conditions": [
+            {
+              "id": 6,
+              "type": "ContextConditionDTO",
+              "key": "checkDuplicateResponse",
+              "operator": "equals",
+              "threshold": true,
+              "preConditionHooks": [
+                {
+                  "functionName": "callOrderDuplicationCheckAPI",
+                  "parameters": {
+                    "type": "1",
+                    "contextKey": "checkDuplicateResponse"
+                  }
+                }
+              ],
+              "onSuccess": {
+                "jumpToStep": null,
+                "executeHooks": [
+                  {
+                    "functionName": "generateCustomMessage",
+                    "parameters": {
+                      "template": "You already have a pending order. Please wait for it to be processed.",
+                      "templateGrutResponse": [
+                        [
+                          "j",
+                          "ˈu"
+                        ],
+                        [
+                          "ɔ",
+                          "l",
+                          "ɹ",
+                          "ˈɛ",
+                          "d",
+                          "i"
+                        ],
+                        [
+                          "h",
+                          "ˈæ",
+                          "v"
+                        ],
+                        [
+                          "ə"
+                        ],
+                        [
+                          "p",
+                          "ˈɛ",
+                          "n",
+                          "d",
+                          "ɪ",
+                          "ŋ"
+                        ],
+                        [
+                          "ˈɔ",
+                          "ɹ",
+                          "d",
+                          "ɚ"
+                        ],
+                        [
+                          "‖"
+                        ],
+                        [
+                          "p",
+                          "l",
+                          "ˈi",
+                          "z"
+                        ],
+                        [
+                          "w",
+                          "ˈeɪ",
+                          "t"
+                        ],
+                        [
+                          "f",
+                          "ɚ"
+                        ],
+                        [
+                          "ˈɪ",
+                          "t"
+                        ],
+                        [
+                          "t",
+                          "ə"
+                        ],
+                        [
+                          "b",
+                          "ˈi"
+                        ],
+                        [
+                          "p",
+                          "ɹ",
+                          "ˈɑ",
+                          "s",
+                          "ɛ",
+                          "s",
+                          "t"
+                        ],
+                        [
+                          "‖"
+                        ]
+                      ],
+                      "contextKey": ""
+                    }
+                  }
+                ]
+              },
+              "onFailure": {
+                "jumpToStep": 8
+              }
+            }
+          ],
+          "nextStep": null
+        },
+        {
+          "step": 7,
+          "intent": "ContactPatientCare",
+          "botResponse": "Please contact patient care for further assistance.",
+          "botGrutResponse": [
+            [
+              "p",
+              "l",
+              "ˈi",
+              "z"
+            ],
+            [
+              "k",
+              "ˈɑ",
+              "n",
+              "t",
+              "ˌæ",
+              "k",
+              "t"
+            ],
+            [
+              "p",
+              "ˈeɪ",
+              "ʃ",
+              "ə",
+              "n",
+              "t"
+            ],
+            [
+              "k",
+              "ˈɛ",
+              "ɹ"
+            ],
+            [
+              "f",
+              "ɚ"
+            ],
+            [
+              "f",
+              "ˈɚ",
+              "ð",
+              "ɚ"
+            ],
+            [
+              "ə",
+              "s",
+              "ˈɪ",
+              "s",
+              "t",
+              "ə",
+              "n",
+              "s"
+            ],
+            [
+              "‖"
+            ]
+          ],
+          "nextStep": null
+        },
+        {
+          "step": 8,
+          "intent": "CheckPatientAddress",
+          "botResponse": "Checking if we have your address on file.",
+          "botGrutResponse": [
+            [
+              "t͡ʃ",
+              "ˈɛ",
+              "k",
+              "ɪ",
+              "ŋ"
+            ],
+            [
+              "ˈɪ",
+              "f"
+            ],
+            [
+              "w",
+              "ˈi"
+            ],
+            [
+              "h",
+              "ˈæ",
+              "v"
+            ],
+            [
+              "j",
+              "ˈʊ",
+              "ɹ"
+            ],
+            [
+              "ˈæ",
+              "d",
+              "ɹ",
+              "ˌɛ",
+              "s"
+            ],
+            [
+              "ˈɔ",
+              "n"
+            ],
+            [
+              "f",
+              "ˈaɪ",
+              "l"
+            ],
+            [
+              "‖"
+            ]
+          ],
+          "conditions": [
+            {
+              "id": 8,
+              "type": "ObjectConditionDTO",
+              "objectName": "patient",
+              "property": "address",
+              "operator": "isNotNullOrEmpty",
+              "onSuccess": {
+                "jumpToStep": 9
+              },
+              "onFailure": {
+                "jumpToStep": 10
+              }
+            }
+          ],
+          "nextStep": null
+        },
+        {
+          "step": 9,
+          "intent": "ConfirmPatientAddress",
+          "botResponse": "",
+          "botGrutResponse": [],
+          "conditions": [
+            {
+              "id": 9,
+              "type": "ContextConditionDTO",
+              "key": "addressConfirmation",
+              "operator": "equals",
+              "threshold": true,
+              "preConditionHooks": [
+                {
+                  "functionName": "captureManualInput",
+                  "parameters": {
+                    "inputField": "addressConfirmation",
+                    "type": "boolean",
+                    "prompt": "Is your address {objectData.patient.address} correct?",
+                    "promptGrutResponse": [
+                      [
+                        "ɪ",
+                        "z"
+                      ],
+                      [
+                        "j",
+                        "ɔ",
+                        "ɹ"
+                      ],
+                      [
+                        "æ",
+                        "d",
+                        "ɹ",
+                        "ɛ",
+                        "s"
+                      ],
+                      [
+                        "ADDRESS_PLACEHOLDER"
+                      ],
+                      [
+                        "k",
+                        "ɚ",
+                        "ɹ",
+                        "ɛ",
+                        "k",
+                        "t"
+                      ]
+                    ],
+                    "llmPrompt": "You are an intelligent assistant designed to analyze user input and validate it as a confirmation response. Your task is to: 1. Analyze the input text to determine if it contains a valid confirmation or refusal response. 2. Extract and validate the response as either true (indicating confirmation) or false (indicating refusal or disagreement): - If the response indicates agreement or confirmation (e.g., 'yes', 'yeah', 'sure', 'of course', 'okay', 'that's correct', 'you've got it', etc.), return: { \"isValid\": true, \"extractedValue\": true } - If the response indicates disagreement or refusal (e.g., 'no', 'not at all', 'nope', 'never', etc.), return: { \"isValid\": true, \"extractedValue\": false } 3. If the input does not clearly indicate either confirmation or refusal, or if it is ambiguous, consider it invalid and return: { \"isValid\": false, \"extractedValue\": false } Rules: - Output must be **strictly valid JSON** using **double quotes**. - Do not include any explanation, comment, or extra text. - Only output the raw JSON object as described. - Be case-insensitive.",
+                    "retryPrompt": "I didn't understand. Please provide a valid response.",
+                    "retryGrutResponse": [
+                      [
+                        "ˈaɪ"
+                      ],
+                      [
+                        "d",
+                        "ˈɪ",
+                        "d",
+                        "ə",
+                        "n",
+                        "t"
+                      ],
+                      [
+                        "ˌʌ",
+                        "n",
+                        "d",
+                        "ɚ",
+                        "s",
+                        "t",
+                        "ˈæ",
+                        "n",
+                        "d"
+                      ],
+                      [
+                        "‖"
+                      ],
+                      [
+                        "p",
+                        "l",
+                        "ˈi",
+                        "z"
+                      ],
+                      [
+                        "p",
+                        "ɹ",
+                        "ə",
+                        "v",
+                        "ˈaɪ",
+                        "d"
+                      ],
+                      [
+                        "ə"
+                      ],
+                      [
+                        "v",
+                        "ˈæ",
+                        "l",
+                        "ɪ",
+                        "d"
+                      ],
+                      [
+                        "ɹ",
+                        "ɪ",
+                        "s",
+                        "p",
+                        "ˈɑ",
+                        "n",
+                        "s"
+                      ],
+                      [
+                        "‖"
+                      ]
+                    ],
+                    "maxRetries": 3
+                  }
+                }
+              ],
+              "onSuccess": {
+                "jumpToStep": 13
+              },
+              "onFailure": {
+                "jumpToStep": 10
+              }
+            }
+          ],
+          "nextStep": null
+        },
+        {
+          "step": 10,
+          "intent": "CollectStreet",
+          "botResponse": "",
+          "botGrutResponse": [],
+          "conditions": [
+            {
+              "id": 10,
+              "type": "ContextConditionDTO",
+              "key": "collectedStreet",
+              "operator": "isNotNullOrEmpty",
+              "preConditionHooks": [
+                {
+                  "functionName": "captureManualInput",
+                  "parameters": {
+                    "inputField": "collectedStreet",
+                    "type": "string",
+                    "prompt": "Please tell me your street (for example, '123 Main Street').",
+                    "promptGrutResponse": [
+                      [
+                        "p",
+                        "l",
+                        "ˈi",
+                        "z"
+                      ],
+                      [
+                        "ˈɛ",
+                        "n",
+                        "t",
+                        "ɚ"
+                      ],
+                      [
+                        "j",
+                        "ˈʊ",
+                        "ɹ"
+                      ],
+                      [
+                        "s",
+                        "t",
+                        "ɹ",
+                        "ˈi",
+                        "t"
+                      ],
+                      [
+                        "ˈi"
+                      ],
+                      [
+                        "d͡ʒ",
+                        "ˈi"
+                      ],
+                      [
+                        "|"
+                      ],
+                      [
+                        "w",
+                        "ˈʌ",
+                        "n"
+                      ],
+                      [
+                        "h",
+                        "ˈʌ",
+                        "n",
+                        "d",
+                        "ɹ",
+                        "ɪ",
+                        "d"
+                      ],
+                      [
+                        "ˈæ",
+                        "n",
+                        "d"
+                      ],
+                      [
+                        "t",
+                        "w",
+                        "ˈɛ",
+                        "n",
+                        "t",
+                        "i"
+                      ],
+                      [
+                        "θ",
+                        "ɹ",
+                        "ˈi"
+                      ],
+                      [
+                        "m",
+                        "ˈeɪ",
+                        "n"
+                      ],
+                      [
+                        "s",
+                        "t",
+                        "ɹ",
+                        "ˈi",
+                        "t"
+                      ],
+                      [
+                        "‖"
+                      ]
+                    ],
+                    "llmPrompt": "\"You are an intelligent assistant designed to analyze user input and extract a valid street address. Your task is to: 1. Extract the street address from the input text. A valid street address typically includes: a number or a word that can represent a number (e.g., 'One', 'Two'), a street name (e.g., 'Main', 'Elm'), and optional suffixes like 'Street', 'Avenue', 'Road', etc. However, the suffix is not mandatory. 2. Convert numbers written as words into their numeric equivalents (e.g., 'One' → '1'). 3. Validate the extracted address to ensure it follows this general structure: '[Number/Word] [Street Name] [Optional Suffix]'. 4. If valid, return the extracted address as a string. 5. If no valid address is found, return an error message indicating 'Invalid address'. Rules: - The number or word representing a number must appear at the beginning of the address. - The street name must consist of one or more words following the number. - Ignore unrelated text and focus solely on extracting the street address. - Be case-insensitive when analyzing input. - If ambiguity arises, prioritize the most common format for street addresses. Ensure the response contains only this JSON object, nothing more. Input Example 1: 'I live at Four Twenty-Five Main Ave.' Output Example 1: {'isValid': true, 'extractedValue': '425 Main Ave'} Input Example 2: 'My address is One Thousand Oak Road.' Output Example 2: {'isValid': true, 'extractedValue': '1000 Oak Road'} Input Example 3: 'I live on Broadway.' Output Example 3: {'isValid': true, 'extractedValue': 'Broadway'} Input Example 4: 'My home is in a remote area.' Output Example 4: {'isValid': false, 'extractedValue': 'Invalid address'} Output Format: {'isValid': true/false, 'extractedValue': '<Extracted Address>'}.\"\n",
+                    "retryPrompt": "I didn't understand. Please provide a valid street address.",
+                    "retryGrutResponse": [
+                      [
+                        "ˈaɪ"
+                      ],
+                      [
+                        "d",
+                        "ˈɪ",
+                        "d",
+                        "ə",
+                        "n",
+                        "t"
+                      ],
+                      [
+                        "ˌʌ",
+                        "n",
+                        "d",
+                        "ɚ",
+                        "s",
+                        "t",
+                        "ˈæ",
+                        "n",
+                        "d"
+                      ],
+                      [
+                        "‖"
+                      ],
+                      [
+                        "p",
+                        "l",
+                        "ˈi",
+                        "z"
+                      ],
+                      [
+                        "p",
+                        "ɹ",
+                        "ə",
+                        "v",
+                        "ˈaɪ",
+                        "d"
+                      ],
+                      [
+                        "ə"
+                      ],
+                      [
+                        "v",
+                        "ˈæ",
+                        "l",
+                        "ɪ",
+                        "d"
+                      ],
+                      [
+                        "s",
+                        "t",
+                        "ɹ",
+                        "ˈi",
+                        "t"
+                      ],
+                      [
+                        "ˈæ",
+                        "d",
+                        "ɹ",
+                        "ˌɛ",
+                        "s"
+                      ],
+                      [
+                        "‖"
+                      ]
+                    ],
+                    "maxRetries": 3
+                  }
+                }
+              ],
+              "onSuccess": {
+                "jumpToStep": 11
+              },
+              "onFailure": {
+                "jumpToStep": 10
+              }
+            }
+          ],
+          "nextStep": null
+        },
+        {
+          "step": 11,
+          "intent": "CollectCity",
+          "botResponse": "",
+          "botGrutResponse": [],
+          "conditions": [
+            {
+              "id": 11,
+              "type": "ContextConditionDTO",
+              "key": "collectedCity",
+              "operator": "isNotNullOrEmpty",
+              "preConditionHooks": [
+                {
+                  "functionName": "captureManualInput",
+                  "parameters": {
+                    "inputField": "collectedCity",
+                    "type": "string",
+                    "prompt": "Please enter your city.",
+                    "promptGrutResponse": [
+                      [
+                        "p",
+                        "l",
+                        "ˈi",
+                        "z"
+                      ],
+                      [
+                        "ˈɛ",
+                        "n",
+                        "t",
+                        "ɚ"
+                      ],
+                      [
+                        "j",
+                        "ˈʊ",
+                        "ɹ"
+                      ],
+                      [
+                        "s",
+                        "ˈɪ",
+                        "t",
+                        "i"
+                      ],
+                      [
+                        "‖"
+                      ]
+                    ],
+                    "llmPrompt": "\"You are an intelligent assistant designed to analyze user input and extract a valid city name. Your task is to: 1. Extract the city name from the input text (e.g., 'New York'). 2. Validate that the city name is valid. A valid city name typically consists of letters and may include spaces or hyphens. 3. If valid, return the extracted city name as a JSON object. 4. If no valid city name is found, return a JSON object with 'isValid': false and an appropriate 'extractedValue' message. Rules: - Ensure the response is in strict JSON format with no additional explanations or text. - Return only the following JSON object in the output. Input Example: 'I live in San Francisco.' Output Example: { 'isValid': true, 'extractedValue': 'San Francisco' } Input Example 2: 'My city is 12345.' Output Example 2: { 'isValid': false, 'extractedValue': 'Invalid city' }\"\n",
+                    "retryPrompt": "I didn't understand. Please provide a valid city name.",
+                    "retryGrutResponse": [
+                      [
+                        "ˈaɪ"
+                      ],
+                      [
+                        "d",
+                        "ˈɪ",
+                        "d",
+                        "ə",
+                        "n",
+                        "t"
+                      ],
+                      [
+                        "ˌʌ",
+                        "n",
+                        "d",
+                        "ɚ",
+                        "s",
+                        "t",
+                        "ˈæ",
+                        "n",
+                        "d"
+                      ],
+                      [
+                        "‖"
+                      ],
+                      [
+                        "p",
+                        "l",
+                        "ˈi",
+                        "z"
+                      ],
+                      [
+                        "p",
+                        "ɹ",
+                        "ə",
+                        "v",
+                        "ˈaɪ",
+                        "d"
+                      ],
+                      [
+                        "ə"
+                      ],
+                      [
+                        "v",
+                        "ˈæ",
+                        "l",
+                        "ɪ",
+                        "d"
+                      ],
+                      [
+                        "s",
+                        "ˈɪ",
+                        "t",
+                        "i"
+                      ],
+                      [
+                        "n",
+                        "ˈeɪ",
+                        "m"
+                      ],
+                      [
+                        "‖"
+                      ]
+                    ],
+                    "maxRetries": 3
+                  }
+                }
+              ],
+              "onSuccess": {
+                "jumpToStep": 12
+              },
+              "onFailure": {
+                "jumpToStep": 11
+              }
+            }
+          ],
+          "nextStep": null
+        },
+        {
+          "step": 12,
+          "intent": "CollectState",
+          "botResponse": "",
+          "botGrutResponse": [],
+          "conditions": [
+            {
+              "id": 12,
+              "type": "ContextConditionDTO",
+              "key": "collectedState",
+              "operator": "isNotNullOrEmpty",
+              "preConditionHooks": [
+                {
+                  "functionName": "captureManualInput",
+                  "parameters": {
+                    "inputField": "collectedState",
+                    "type": "string",
+                    "prompt": "Please enter your state or region.",
+                    "promptGrutResponse": [
+                      [
+                        "p",
+                        "l",
+                        "ˈi",
+                        "z"
+                      ],
+                      [
+                        "ˈɛ",
+                        "n",
+                        "t",
+                        "ɚ"
+                      ],
+                      [
+                        "j",
+                        "ˈʊ",
+                        "ɹ"
+                      ],
+                      [
+                        "s",
+                        "t",
+                        "ˈeɪ",
+                        "t"
+                      ],
+                      [
+                        "ˈɔ",
+                        "ɹ"
+                      ],
+                      [
+                        "ɹ",
+                        "ˈi",
+                        "d͡ʒ",
+                        "ə",
+                        "n"
+                      ],
+                      [
+                        "‖"
+                      ]
+                    ],
+                    "llmPrompt": "You are an intelligent assistant designed to extract and validate Australian state or territory names from user input. Accept common variations, misspellings, and abbreviations. Match to the closest valid value from: 'New South Wales', 'Victoria', 'Queensland', 'Western Australia', 'South Australia', 'Tasmania', 'Northern Territory', 'Australian Capital Territory'. If matched, return: { 'isValid': true, 'extractedValue': '<Corrected State Name>' }. If no valid match, return: { 'isValid': false, 'extractedValue': 'Invalid state or territory' }. Output only strict JSON. No extra text or explanation.",
+                    "retryPrompt": "I didn't understand. Please provide a valid state or region.",
+                    "retryGrutResponse": [
+                      [
+                        "ˈaɪ"
+                      ],
+                      [
+                        "d",
+                        "ˈɪ",
+                        "d",
+                        "ə",
+                        "n",
+                        "t"
+                      ],
+                      [
+                        "ˌʌ",
+                        "n",
+                        "d",
+                        "ɚ",
+                        "s",
+                        "t",
+                        "ˈæ",
+                        "n",
+                        "d"
+                      ],
+                      [
+                        "‖"
+                      ],
+                      [
+                        "p",
+                        "l",
+                        "ˈi",
+                        "z"
+                      ],
+                      [
+                        "p",
+                        "ɹ",
+                        "ə",
+                        "v",
+                        "ˈaɪ",
+                        "d"
+                      ],
+                      [
+                        "ə"
+                      ],
+                      [
+                        "v",
+                        "ˈæ",
+                        "l",
+                        "ɪ",
+                        "d"
+                      ],
+                      [
+                        "s",
+                        "t",
+                        "ˈeɪ",
+                        "t"
+                      ],
+                      [
+                        "ˈɔ",
+                        "ɹ"
+                      ],
+                      [
+                        "ɹ",
+                        "ˈi",
+                        "d͡ʒ",
+                        "ə",
+                        "n"
+                      ],
+                      [
+                        "‖"
+                      ]
+                    ],
+                    "maxRetries": 3
+                  }
+                }
+              ],
+              "onSuccess": {
+                "jumpToStep": 13
+              },
+              "onFailure": {
+                "jumpToStep": 12
+              }
+            }
+          ],
+          "nextStep": null
+        },
+        {
+          "step": 13,
+          "intent": "PlaceOrder",
+          "botResponse": "Placing your order.",
+          "botGrutResponse": [
+            [
+              "p",
+              "l",
+              "ˈeɪ",
+              "s",
+              "ɪ",
+              "ŋ"
+            ],
+            [
+              "j",
+              "ˈʊ",
+              "ɹ"
+            ],
+            [
+              "ˈɔ",
+              "ɹ",
+              "d",
+              "ɚ"
+            ],
+            [
+              "‖"
+            ]
+          ],
+          "conditions": [],
+          "executeHooks": [
+            {
+              "functionName": "createOrderAPI",
+              "parameters": {
+              }
+            },
+            {
+              "functionName": "emitFlowStop",
+              "parameters": {}
+            }
+          ],
+          "nextStep": null
+        }
+      ]
+    },
+    {
+      "scenarioId": "ManualRecordingFlow",
+      "name": "Initiate Manual Recording",
+      "steps": [
+        {
+          "step": 1,
+          "intent": "ManualRecording",
+          "botResponse": "Here, have a seat. Give yourself a moment.",
+          "botGrutResponse": [
+            [
+              "l",
+              "ˈɛ",
+              "t"
+            ],
+            [
+              "m",
+              "ˈi"
+            ],
+            [
+              "t͡ʃ",
+              "ˈɛ",
+              "k"
+            ],
+            [
+              "j",
+              "ˈʊ",
+              "ɹ"
+            ],
+            [
+              "d",
+              "ˈi",
+              "t",
+              "eɪ",
+              "l",
+              "z"
+            ],
+            [
+              "‖"
+            ]
+          ],
+          "conditions": [
+            {
+              "id": 1,
+              "type": "ObjectConditionDTO",
+              "property": "firstname",
+              "objectName": "patient",
+              "operator": "isNotNullOrEmpty",
+              "onSuccess": {
+                "jumpToStep": null,
+                "executeHooks": [
+                  {
+                    "functionName": "requestStartManualRecording",
+                    "parameters": {}
+                  }
+                ]
+              },
+              "onFailure": {
+                "jumpToStep": null,
+                "executeHooks": [
+                  {
+                    "functionName": "generateCustomMessage",
+                    "parameters": {
+                      "template": "Please login to proceed.",
+                      "templateGrutResponse": [
+                        [
+                          "p",
+                          "l",
+                          "ˈi",
+                          "z"
+                        ],
+                        [
+                          "l",
+                          "ˈɔ",
+                          "ɡ",
+                          "ˌɪ",
+                          "n"
+                        ],
+                        [
+                          "t",
+                          "ə"
+                        ],
+                        [
+                          "p",
+                          "ɹ",
+                          "oʊ",
+                          "s",
+                          "ˈi",
+                          "d",
+                          "z"
+                        ],
+                        [
+                          "‖"
+                        ]
+                      ],
+                      "contextKey": ""
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "nextStep": null
+        }
+      ]
+    },
+    {
+      "scenarioId": "GetSymptomFlow",
+      "name": "Get Symptom",
+      "steps": [
+        {
+          "step": 1,
+          "intent": "CaptureSymptoms",
+          "botResponse": "",
+          "botGrutResponse": [],
+          "conditions": [
+            {
+              "id": 1,
+              "type": "ContextConditionDTO",
+              "key": "isManualRecordingSuccessful",
+              "operator": "equals",
+              "threshold": true,
+              "preConditionHooks": [
+                {
+                  "functionName": "captureManualInput",
+                  "parameters": {
+                    "inputField": "manualRecordingFeelingUnwell",
+                    "type": "string",
+                    "prompt": "Can you please describe how you are feeling currently ?",
+                    "promptGrutResponse": [
+                      [
+                        "k",
+                        "ə",
+                        "n"
+                      ],
+                      [
+                        "j",
+                        "ˈu"
+                      ],
+                      [
+                        "p",
+                        "l",
+                        "ˈi",
+                        "z"
+                      ],
+                      [
+                        "d",
+                        "ɪ",
+                        "s",
+                        "k",
+                        "ɹ",
+                        "ˈaɪ",
+                        "b"
+                      ],
+                      [
+                        "h",
+                        "ˈaʊ"
+                      ],
+                      [
+                        "j",
+                        "ˈu"
+                      ],
+                      [
+                        "ˈɑ",
+                        "ɹ"
+                      ],
+                      [
+                        "f",
+                        "ˈi",
+                        "l",
+                        "ɪ",
+                        "ŋ"
+                      ],
+                      [
+                        "k",
+                        "ˈɚ",
+                        "ə",
+                        "n",
+                        "t",
+                        "l",
+                        "i"
+                      ],
+                      [
+                        "‖"
+                      ]
+                    ],
+                    "llmPrompt": "You are an intelligent assistant designed to analyze user input and extract a valid symptom description. Your task is to: 1. Extract the description of the symptom from the input text. \n2. Try to match symptoms to one of the following categories if possible\n- fast_heart_rate \n- chest_pain \n- fluttering\n- short_of_breath \n- dizzy \n- the_big_one\n- not_feeling_well\n If a symptom description closely resembles one of these categories, return that category name. Example: 'not feeling good' → 'not_feeling_well' 2. Validate that the extracted description is a valid symptom. A valid symptom typically consists of descriptive words about physical sensations or feelings. 3. If valid, return the extracted symptom as a string. 4. If no valid symptom is found, respond with 'Invalid symptom' without extracting any value. Rules: - Ignore unrelated text and focus solely on extracting symptom descriptions. - Be case-insensitive when analyzing input. - Ensure the extracted symptom is descriptive, concise, and relevant to physical sensations or feelings. - Ensure the response contains only this JSON object, nothing more. Input Example 1: 'I feel a mild ache in my heart.' Output Example 1: { 'isValid': true, 'extractedValue': 'mild ache in heart' } Input Example 2: 'I am experiencing dizziness and sharp chest pain.' Output Example 2: { 'isValid': true, 'extractedValue': 'dizziness and sharp chest pain' } Input Example 3: 'I just had lunch, and I feel great.' Output Example 3: { 'isValid': false, 'extractedValue': 'Invalid symptom' }",
+                    "retryPrompt": "I didn’t understand. Can you please repeat that? Thanks.",
+                    "retryGrutResponse": [
+                      [
+                        "ˈaɪ"
+                      ],
+                      [
+                        "d",
+                        "ˈɪ",
+                        "d",
+                        "ə",
+                        "n",
+                        "t"
+                      ],
+                      [
+                        "ˌʌ",
+                        "n",
+                        "d",
+                        "ɚ",
+                        "s",
+                        "t",
+                        "ˈæ",
+                        "n",
+                        "d"
+                      ],
+                      [
+                        "|"
+                      ],
+                      [
+                        "k",
+                        "ə",
+                        "n"
+                      ],
+                      [
+                        "j",
+                        "ˈu"
+                      ],
+                      [
+                        "p",
+                        "l",
+                        "ˈi",
+                        "z"
+                      ],
+                      [
+                        "ɹ",
+                        "ɪ",
+                        "p",
+                        "ˈi",
+                        "t"
+                      ],
+                      [
+                        "ð",
+                        "ˈæ",
+                        "t"
+                      ],
+                      [
+                        "|"
+                      ],
+                      [
+                        "θ",
+                        "ˈæ",
+                        "ŋ",
+                        "k",
+                        "s"
+                      ],
+                      [
+                        "‖"
+                      ]
+                    ],
+                    "maxRetries": 3
+                  }
+                }
+              ],
+              "onSuccess": {
+                "jumpToStep": null,
+                "executeHooks": [
+                  {
+                    "functionName": "generateCustomMessage",
+                    "parameters": {
+                      "template": "Thanks for that, Manual recording will finish in one minute ! If you have any questions, feel free to ask ! ",
+                      "templateGrutResponse": [
+                        [
+                          "θ",
+                          "ˈæ",
+                          "ŋ",
+                          "k",
+                          "s"
+                        ],
+                        [
+                          "f",
+                          "ɚ"
+                        ],
+                        [
+                          "ð",
+                          "ˈæ",
+                          "t"
+                        ],
+                        [
+                          "m",
+                          "ˈæ",
+                          "n",
+                          "j",
+                          "u",
+                          "ə",
+                          "l"
+                        ],
+                        [
+                          "ɹ",
+                          "ɪ",
+                          "k",
+                          "ˈɔ",
+                          "ɹ",
+                          "d",
+                          "ɪ",
+                          "ŋ"
+                        ],
+                        [
+                          "ˈɪ",
+                          "z"
+                        ],
+                        [
+                          "n",
+                          "ˈaʊ"
+                        ],
+                        [
+                          "k",
+                          "ə",
+                          "m",
+                          "p",
+                          "l",
+                          "ˈi",
+                          "t"
+                        ],
+                        [
+                          "‖"
+                        ]
+                      ],
+                      "contextKey": ""
+                    }
+                  },
+                  {
+                    "functionName": "resetManualRecordingFlag",
+                    "parameters": {}
+                  },
+                  {
+                    "functionName": "emitFlowStop",
+                    "parameters": {}
+                  }
+                ]
+              },
+              "onFailure": {
+                "jumpToStep": null,
+                "executeHooks": []
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

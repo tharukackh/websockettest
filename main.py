@@ -33,7 +33,7 @@ async def websocket_endpoint(websocket: WebSocket):
                 
 
             elif message_type == "prompt":
-                result = await build_faq_prompt(data["userTranscript"], data["fullTranscription"],data["faqIntentsWithResponses"],data["smallTalkHistory"])
+                result = await build_faq_prompt(data["userTranscript"], data["fullTranscription"],data["smallTalkHistory"])
                 await websocket.send_text(make_response("prompt", result))
 
             elif message_type == "heartbeat":
