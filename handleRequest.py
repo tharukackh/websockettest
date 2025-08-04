@@ -128,8 +128,19 @@ def get_faq_intents_from_file() -> Dict[str, str]:
     try:
         file_path = "scenarios.json"
         with open(file_path, 'r', encoding='utf-8') as f:
-            scenarios = json.load(f)
+            data = json.load(f)
 
+        # Get list of scenarios
+        scenarios_list = data.get("scenarios", [])
+
+        # Build a map of scenarios by scenarioId
+        scenarios = {
+            scenario["scenarioId"]: scenario
+            for scenario in scenarios_list
+            if "scenarioId" in scenario
+        }
+
+        # Extract FAQ scenario
         faq_scenario = scenarios.get("FAQ")
         if faq_scenario and "steps" in faq_scenario:
             return {

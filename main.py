@@ -1,5 +1,5 @@
 from fastapi import FastAPI, WebSocket
-from handleRequest import build_faq_prompt, setApiKey
+from handleRequest import build_faq_prompt, setApiKey, setFaqIntents
 import traceback
 import json
 
@@ -29,6 +29,7 @@ async def websocket_endpoint(websocket: WebSocket):
 
             if message_type == "api":
                 setApiKey(data.get("apiKey"))
+                setFaqIntents()
                 await websocket.send_text(make_response("api", "API key set successfully"))
                 
 
@@ -47,6 +48,6 @@ async def websocket_endpoint(websocket: WebSocket):
         print("Client disconnected")
         traceback.print_exc()
 
-# if __name__ == "__main__":
-#     import uvicorn
-#     uvicorn.run("main:app", host="0.0.0.0", port=8765, reload=True)
+if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run("main:app", host="0.0.0.0", port=8765, reload=True)
